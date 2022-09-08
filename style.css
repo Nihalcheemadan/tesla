@@ -1,0 +1,174 @@
+
+*{
+    
+    margin: 0;
+    padding: 0;
+    
+}
+.page1{
+    width: 100%;
+    height: 650px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: url("images/page1.jpeg");
+    background-size: 1400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    scroll-behavior: smooth;
+}
+nav{
+   position: fixed;
+   top: 0;
+   left: 0;
+   font-weight: 600;
+   width: 100%;
+   display: flex;
+   align-items: center; 
+}
+.logo{
+    margin-left: 45px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+nav ul{
+    flex: 1;
+    text-align: center;
+    padding-left: 120px;
+    padding-bottom: 40px;
+}
+nav ul li{
+    
+    display: inline-block;
+    margin: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #171A20;
+    
+}
+nav .btn{
+    color: #171A20;
+    text-decoration: none;
+    margin-right: 18px;
+    padding: 10px;
+    padding-bottom: 46px;
+}
+.content{
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 7%;
+}
+.content h1{
+    font-size: 40px;
+    font-weight: 600;
+    color: #070606;
+    padding-left: 35px;
+}
+.content p{
+    padding-top: 5px;
+    font-weight: 500;
+}
+.links{
+    position: absolute;
+    margin-top: 40%;
+    margin-left: 30%;
+    
+    
+}
+.links .custom{
+    padding: 10px 80px;
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(37, 37, 37);
+    border-radius: 4px;
+}
+.links .existing{
+    margin-left: 40px;
+    padding: 10px 80px;
+    text-decoration: none;
+    color: black;
+    background-color: #e8e8e8;
+    border-radius: 4px;
+}
+.page2{
+    width: 100%;
+    height: 700px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: url("images/page2.jpeg");
+    background-size: 1450px;
+    background-repeat: no-repeat;
+    background-position: center;
+    scroll-behavior: smooth;
+}
+.page3{
+    width: 100%;
+    height: 700px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: url("images/page3.jpeg");
+    background-size: 1350px;
+    background-position: center;
+    scroll-behavior: smooth;
+}
+.page4{
+    width: 100%;
+    height: 700px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: url("images/page4.jpeg");
+    background-size: cover;
+    background-position: center;
+    scroll-behavior: smooth;
+}
+.page5{
+    
+    width: 100%;
+    height: 750px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: url("images/page5.jpeg");
+    background-size: cover;
+    background-position: center;
+    scroll-behavior: smooth;
+}
+.page6{
+    width: 100%;
+    height: 700px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: url("images/page6.jpeg");
+    background-size: cover;
+    background-position: center;
+    scroll-behavior: smooth;
+}
+.page7{
+    width: 100%;
+    height: 700px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: url("images/page7.jpeg");
+    background-size: 1250px;
+    background-repeat: no-repeat;
+    background-position: center;
+    scroll-behavior: smooth;
+    
+}
+.links2{
+    position: absolute;
+    margin-top: 40%;
+    margin-left: 43%;
+}
+.links2 .custom2{
+    padding: 10px 80px;
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(37, 37, 37);
+    border-radius: 10px;
+}
+.footer ul{
+    padding-left: 27%;
+    padding-top: 48%;
+}
+.footer ul li{
+    list-style: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    color: #5c5e62;
+    padding-left: 25px;
+    display: inline-block;
+}
